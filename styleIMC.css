@@ -1,9 +1,9 @@
 /* Fundo azul */
 body {
     /* background-color: #2a72d4;*/
-    /*background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('imc.png'); Imagem de fundo transparente*/
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('fundoIMC.png');
     /*background:url('imagem.png') */
-    background: linear-gradient(to bottom right, darkblue, lightblue) ;
+    /*background: linear-gradient(to bottom right, darkblue, lightblue) ;*/
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -14,9 +14,38 @@ body {
     text-align: center;
 }
 
+/* Header */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+/* Ícones das redes sociais */
+.redes-sociais a {
+    margin-right: 15px;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+
 /* Caixa centralizada */
 .caixa {
-    background-color: #1e4f91;
+    background-color: blue;
     width: 50%;
     margin: 50px auto;
     padding: 20px;
